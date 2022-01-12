@@ -43,9 +43,9 @@ $ ./example_glfw_opengl2_cmake&
 
 ----------------------------
 I have tested it on 3 platforms:
-    - one Ubuntu; 
-    - on a Linux Mint; 
-    - built and executed it on the Raspberry Pi 4 B with Manjaro Linux
+- one Ubuntu; 
+- on a Linux Mint; 
+- built and executed it on the Raspberry Pi 4 B with Manjaro Linux
     
 I hope you will enjoy this one :).
 
