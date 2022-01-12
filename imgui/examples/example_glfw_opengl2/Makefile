@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nasko1/GIT/imgui/examples/example_glfw_opengl2
+CMAKE_SOURCE_DIR = /home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/examples/example_glfw_opengl2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nasko1/GIT/imgui/examples/example_glfw_opengl2
+CMAKE_BINARY_DIR = /home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/examples/example_glfw_opengl2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nasko1/GIT/imgui/examples/example_glfw_opengl2/CMakeFiles /home/nasko1/GIT/imgui/examples/example_glfw_opengl2/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/examples/example_glfw_opengl2/CMakeFiles /home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/examples/example_glfw_opengl2/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nasko1/GIT/imgui/examples/example_glfw_opengl2/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/examples/example_glfw_opengl2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -136,194 +136,194 @@ IMGUI/fast:
 	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/build
 .PHONY : IMGUI/fast
 
-home/nasko1/GIT/imgui/backends/imgui_impl_glfw.o: home/nasko1/GIT/imgui/backends/imgui_impl_glfw.cpp.o
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.o: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.cpp.o
 
-.PHONY : home/nasko1/GIT/imgui/backends/imgui_impl_glfw.o
-
-# target to build an object file
-home/nasko1/GIT/imgui/backends/imgui_impl_glfw.cpp.o:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/backends/imgui_impl_glfw.cpp.o
-.PHONY : home/nasko1/GIT/imgui/backends/imgui_impl_glfw.cpp.o
-
-home/nasko1/GIT/imgui/backends/imgui_impl_glfw.i: home/nasko1/GIT/imgui/backends/imgui_impl_glfw.cpp.i
-
-.PHONY : home/nasko1/GIT/imgui/backends/imgui_impl_glfw.i
-
-# target to preprocess a source file
-home/nasko1/GIT/imgui/backends/imgui_impl_glfw.cpp.i:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/backends/imgui_impl_glfw.cpp.i
-.PHONY : home/nasko1/GIT/imgui/backends/imgui_impl_glfw.cpp.i
-
-home/nasko1/GIT/imgui/backends/imgui_impl_glfw.s: home/nasko1/GIT/imgui/backends/imgui_impl_glfw.cpp.s
-
-.PHONY : home/nasko1/GIT/imgui/backends/imgui_impl_glfw.s
-
-# target to generate assembly for a file
-home/nasko1/GIT/imgui/backends/imgui_impl_glfw.cpp.s:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/backends/imgui_impl_glfw.cpp.s
-.PHONY : home/nasko1/GIT/imgui/backends/imgui_impl_glfw.cpp.s
-
-home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.o: home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.cpp.o
-
-.PHONY : home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.o
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.o
 
 # target to build an object file
-home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.cpp.o:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.cpp.o
-.PHONY : home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.cpp.o
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.cpp.o:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.cpp.o
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.cpp.o
 
-home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.i: home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.cpp.i
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.i: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.cpp.i
 
-.PHONY : home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.i
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.i
 
 # target to preprocess a source file
-home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.cpp.i:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.cpp.i
-.PHONY : home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.cpp.i
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.cpp.i:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.cpp.i
 
-home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.s: home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.cpp.s
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.s: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.cpp.s
 
-.PHONY : home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.s
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.s
 
 # target to generate assembly for a file
-home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.cpp.s:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.cpp.s
-.PHONY : home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.cpp.s
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.cpp.s:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.cpp.s
 
-home/nasko1/GIT/imgui/imgui.o: home/nasko1/GIT/imgui/imgui.cpp.o
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.o: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.cpp.o
 
-.PHONY : home/nasko1/GIT/imgui/imgui.o
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.o
 
 # target to build an object file
-home/nasko1/GIT/imgui/imgui.cpp.o:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/imgui.cpp.o
-.PHONY : home/nasko1/GIT/imgui/imgui.cpp.o
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.cpp.o:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.cpp.o
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.cpp.o
 
-home/nasko1/GIT/imgui/imgui.i: home/nasko1/GIT/imgui/imgui.cpp.i
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.i: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.cpp.i
 
-.PHONY : home/nasko1/GIT/imgui/imgui.i
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.i
 
 # target to preprocess a source file
-home/nasko1/GIT/imgui/imgui.cpp.i:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/imgui.cpp.i
-.PHONY : home/nasko1/GIT/imgui/imgui.cpp.i
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.cpp.i:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.cpp.i
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.cpp.i
 
-home/nasko1/GIT/imgui/imgui.s: home/nasko1/GIT/imgui/imgui.cpp.s
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.s: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.cpp.s
 
-.PHONY : home/nasko1/GIT/imgui/imgui.s
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.s
 
 # target to generate assembly for a file
-home/nasko1/GIT/imgui/imgui.cpp.s:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/imgui.cpp.s
-.PHONY : home/nasko1/GIT/imgui/imgui.cpp.s
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.cpp.s:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.cpp.s
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.cpp.s
 
-home/nasko1/GIT/imgui/imgui_demo.o: home/nasko1/GIT/imgui/imgui_demo.cpp.o
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.o: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.cpp.o
 
-.PHONY : home/nasko1/GIT/imgui/imgui_demo.o
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.o
 
 # target to build an object file
-home/nasko1/GIT/imgui/imgui_demo.cpp.o:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/imgui_demo.cpp.o
-.PHONY : home/nasko1/GIT/imgui/imgui_demo.cpp.o
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.cpp.o:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.cpp.o
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.cpp.o
 
-home/nasko1/GIT/imgui/imgui_demo.i: home/nasko1/GIT/imgui/imgui_demo.cpp.i
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.i: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.cpp.i
 
-.PHONY : home/nasko1/GIT/imgui/imgui_demo.i
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.i
 
 # target to preprocess a source file
-home/nasko1/GIT/imgui/imgui_demo.cpp.i:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/imgui_demo.cpp.i
-.PHONY : home/nasko1/GIT/imgui/imgui_demo.cpp.i
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.cpp.i:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.cpp.i
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.cpp.i
 
-home/nasko1/GIT/imgui/imgui_demo.s: home/nasko1/GIT/imgui/imgui_demo.cpp.s
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.s: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.cpp.s
 
-.PHONY : home/nasko1/GIT/imgui/imgui_demo.s
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.s
 
 # target to generate assembly for a file
-home/nasko1/GIT/imgui/imgui_demo.cpp.s:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/imgui_demo.cpp.s
-.PHONY : home/nasko1/GIT/imgui/imgui_demo.cpp.s
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.cpp.s:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.cpp.s
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.cpp.s
 
-home/nasko1/GIT/imgui/imgui_draw.o: home/nasko1/GIT/imgui/imgui_draw.cpp.o
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.o: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.cpp.o
 
-.PHONY : home/nasko1/GIT/imgui/imgui_draw.o
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.o
 
 # target to build an object file
-home/nasko1/GIT/imgui/imgui_draw.cpp.o:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/imgui_draw.cpp.o
-.PHONY : home/nasko1/GIT/imgui/imgui_draw.cpp.o
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.cpp.o:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.cpp.o
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.cpp.o
 
-home/nasko1/GIT/imgui/imgui_draw.i: home/nasko1/GIT/imgui/imgui_draw.cpp.i
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.i: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.cpp.i
 
-.PHONY : home/nasko1/GIT/imgui/imgui_draw.i
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.i
 
 # target to preprocess a source file
-home/nasko1/GIT/imgui/imgui_draw.cpp.i:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/imgui_draw.cpp.i
-.PHONY : home/nasko1/GIT/imgui/imgui_draw.cpp.i
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.cpp.i:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.cpp.i
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.cpp.i
 
-home/nasko1/GIT/imgui/imgui_draw.s: home/nasko1/GIT/imgui/imgui_draw.cpp.s
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.s: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.cpp.s
 
-.PHONY : home/nasko1/GIT/imgui/imgui_draw.s
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.s
 
 # target to generate assembly for a file
-home/nasko1/GIT/imgui/imgui_draw.cpp.s:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/imgui_draw.cpp.s
-.PHONY : home/nasko1/GIT/imgui/imgui_draw.cpp.s
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.cpp.s:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.cpp.s
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.cpp.s
 
-home/nasko1/GIT/imgui/imgui_tables.o: home/nasko1/GIT/imgui/imgui_tables.cpp.o
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.o: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.cpp.o
 
-.PHONY : home/nasko1/GIT/imgui/imgui_tables.o
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.o
 
 # target to build an object file
-home/nasko1/GIT/imgui/imgui_tables.cpp.o:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/imgui_tables.cpp.o
-.PHONY : home/nasko1/GIT/imgui/imgui_tables.cpp.o
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.cpp.o:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.cpp.o
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.cpp.o
 
-home/nasko1/GIT/imgui/imgui_tables.i: home/nasko1/GIT/imgui/imgui_tables.cpp.i
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.i: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.cpp.i
 
-.PHONY : home/nasko1/GIT/imgui/imgui_tables.i
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.i
 
 # target to preprocess a source file
-home/nasko1/GIT/imgui/imgui_tables.cpp.i:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/imgui_tables.cpp.i
-.PHONY : home/nasko1/GIT/imgui/imgui_tables.cpp.i
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.cpp.i:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.cpp.i
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.cpp.i
 
-home/nasko1/GIT/imgui/imgui_tables.s: home/nasko1/GIT/imgui/imgui_tables.cpp.s
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.s: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.cpp.s
 
-.PHONY : home/nasko1/GIT/imgui/imgui_tables.s
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.s
 
 # target to generate assembly for a file
-home/nasko1/GIT/imgui/imgui_tables.cpp.s:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/imgui_tables.cpp.s
-.PHONY : home/nasko1/GIT/imgui/imgui_tables.cpp.s
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.cpp.s:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.cpp.s
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.cpp.s
 
-home/nasko1/GIT/imgui/imgui_widgets.o: home/nasko1/GIT/imgui/imgui_widgets.cpp.o
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.o: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.cpp.o
 
-.PHONY : home/nasko1/GIT/imgui/imgui_widgets.o
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.o
 
 # target to build an object file
-home/nasko1/GIT/imgui/imgui_widgets.cpp.o:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/imgui_widgets.cpp.o
-.PHONY : home/nasko1/GIT/imgui/imgui_widgets.cpp.o
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.cpp.o:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.cpp.o
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.cpp.o
 
-home/nasko1/GIT/imgui/imgui_widgets.i: home/nasko1/GIT/imgui/imgui_widgets.cpp.i
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.i: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.cpp.i
 
-.PHONY : home/nasko1/GIT/imgui/imgui_widgets.i
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.i
 
 # target to preprocess a source file
-home/nasko1/GIT/imgui/imgui_widgets.cpp.i:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/imgui_widgets.cpp.i
-.PHONY : home/nasko1/GIT/imgui/imgui_widgets.cpp.i
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.cpp.i:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.cpp.i
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.cpp.i
 
-home/nasko1/GIT/imgui/imgui_widgets.s: home/nasko1/GIT/imgui/imgui_widgets.cpp.s
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.s: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.cpp.s
 
-.PHONY : home/nasko1/GIT/imgui/imgui_widgets.s
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.s
 
 # target to generate assembly for a file
-home/nasko1/GIT/imgui/imgui_widgets.cpp.s:
-	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui/imgui_widgets.cpp.s
-.PHONY : home/nasko1/GIT/imgui/imgui_widgets.cpp.s
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.cpp.s:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.cpp.s
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.cpp.s
+
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.o: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.cpp.o
+
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.o
+
+# target to build an object file
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.cpp.o:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.cpp.o
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.cpp.o
+
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.i: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.cpp.i
+
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.cpp.i:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.cpp.i
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.cpp.i
+
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.s: home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.cpp.s
+
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.cpp.s:
+	$(MAKE) -f CMakeFiles/IMGUI.dir/build.make CMakeFiles/IMGUI.dir/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.cpp.s
+.PHONY : home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.cpp.s
 
 main.o: main.cpp.o
 
@@ -362,27 +362,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... example_glfw_opengl2_cmake"
 	@echo "... IMGUI"
-	@echo "... home/nasko1/GIT/imgui/backends/imgui_impl_glfw.o"
-	@echo "... home/nasko1/GIT/imgui/backends/imgui_impl_glfw.i"
-	@echo "... home/nasko1/GIT/imgui/backends/imgui_impl_glfw.s"
-	@echo "... home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.o"
-	@echo "... home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.i"
-	@echo "... home/nasko1/GIT/imgui/backends/imgui_impl_opengl2.s"
-	@echo "... home/nasko1/GIT/imgui/imgui.o"
-	@echo "... home/nasko1/GIT/imgui/imgui.i"
-	@echo "... home/nasko1/GIT/imgui/imgui.s"
-	@echo "... home/nasko1/GIT/imgui/imgui_demo.o"
-	@echo "... home/nasko1/GIT/imgui/imgui_demo.i"
-	@echo "... home/nasko1/GIT/imgui/imgui_demo.s"
-	@echo "... home/nasko1/GIT/imgui/imgui_draw.o"
-	@echo "... home/nasko1/GIT/imgui/imgui_draw.i"
-	@echo "... home/nasko1/GIT/imgui/imgui_draw.s"
-	@echo "... home/nasko1/GIT/imgui/imgui_tables.o"
-	@echo "... home/nasko1/GIT/imgui/imgui_tables.i"
-	@echo "... home/nasko1/GIT/imgui/imgui_tables.s"
-	@echo "... home/nasko1/GIT/imgui/imgui_widgets.o"
-	@echo "... home/nasko1/GIT/imgui/imgui_widgets.i"
-	@echo "... home/nasko1/GIT/imgui/imgui_widgets.s"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.o"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.i"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_glfw.s"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.o"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.i"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/backends/imgui_impl_opengl2.s"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.o"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.i"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui.s"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.o"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.i"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_demo.s"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.o"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.i"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_draw.s"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.o"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.i"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_tables.s"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.o"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.i"
+	@echo "... home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/imgui_widgets.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

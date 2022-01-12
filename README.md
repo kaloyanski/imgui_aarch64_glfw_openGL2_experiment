@@ -2,10 +2,12 @@ This is a simple build of the imgui library demo with glfw and opengl2.
 
 Purpose - to make the build of this project easy on any Linux platform. In my case I wanted to build it as well for aarch64, Manjaro Linux for my Raspberry Pi 4 B. 
 
-Prbolem - all the dependencies, it was not clear what you really need, what you don't, and yes - my CMakeLists is still dirty.
-I had to read several tens of pages to understand how to write my simple CMakeLists.txt, what do I need, how do I get and isntall it.
-Reason - I'm total newbie with IMGUI. So I don't wnat other people to suffer like me.
+Problem - all the dependencies, it was not clear what you really need, what you don't, and yes - my CMakeLists is still dirty.
+I had to read approx 15 pages / "libs How Tos" / etc to understand what to include in my simple CMakeLists.txt, how do I get and install it.
+Building several of the libraries by myself didn't even help...
+Reason - I'm total newbie with IMGUI. So I want to spare for you the suffering :).
 
+----------------------------
 Solution:
 
 Prerequisites - to have installed GCC and Cmake, potentially whatever development packages you need and work with.
@@ -39,6 +41,7 @@ Execute with $ ./example_glfw_opengl2_cmake
 To run in background, releasing the console add an & at the end like this:
 $ ./example_glfw_opengl2_cmake&
 
+----------------------------
 I have tested it on 3 platforms:
     - one Ubuntu; 
     - on a Linux Mint; 

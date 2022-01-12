@@ -1,4 +1,4 @@
-# Install script for directory: /home/nasko1/GIT/imgui/examples/example_glfw_opengl2
+# Install script for directory: /home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/examples/example_glfw_opengl2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nasko1/GIT/imgui/examples/example_glfw_opengl2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nasko1/GIT/imgui_aarch64_glfw_openGL2_experiment/imgui/examples/example_glfw_opengl2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
