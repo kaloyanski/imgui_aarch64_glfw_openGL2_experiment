@@ -70,7 +70,7 @@ target_include_directories( IMGUI
 add_executable(${PROJECT_NAME})
 target_sources(${PROJECT_NAME} PUBLIC main.cpp)
 #target_link_libraries(${PROJECT_NAME} IMGUI glfw3 GL glut ${CMAKE_THREAD_LIBS_INIT} ${X11_LIBRARIES} ${CMAKE_DL_LIBS} ${glad})
-target_link_libraries(${PROJECT_NAME} IMGUI glfw3 GL glut ${CMAKE_THREAD_LIBS_INIT} ${X11_LIBRARIES} ${CMAKE_DL_LIBS} ${glad})
+target_link_libraries(${PROJECT_NAME} IMGUI glfw GL glut ${CMAKE_THREAD_LIBS_INIT} ${X11_LIBRARIES} ${CMAKE_DL_LIBS} ${glad})
 set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
 
