@@ -20,30 +20,43 @@ set(CMAKE_SYSTEM_NAME Linux)
 set(SRC_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
 
 set(IMGUI_DIR "${SRC_DIR}/../..")
+#set(GLAD_DIR "${SRC_DIR}/../../../glad/build_${CMAKE_SYSTEM_PROCESSOR}")
 set(GLAD_DIR "${SRC_DIR}/../../../glad")
 
 #The simplest solution may be to add HINTS to each find_* request.
-find_library(glad NAMES libglad lglad libglad.a HINTS ${GLAD_DIR})
+#find_library(glad NAMES libglad lglad libglad.a HINTS ${GLAD_DIR})
 
 # check if boost was found
 #if(glad_FOUND)
-#    message ("glad found")
+#	message ("glad found in ${GLAD_DIR}")
 #else()
-#    message (FATAL_ERROR "Cannot find glad")
+#	message ("Cannot find glad in ${GLAD_DIR}")
+#	set(glad ${GLAD_DIR}/libglad.a)
 #endif()
-message("    -------     ")
-message(${glad})
-
-message("    -------     ")
+#message("    -------     ")
+#message(${glad})
+# message(${CMAKE_CXX_FLAGS})
+#message("    -------     ")
 
 
 
 ## Find dependencies
-#find_package(glfw3 REQUIRED)
-#find_library(GL REQUIRED)
-#find_library(glut REQUIRED)
-find_package(X11 REQUIRED)
+find_package(glfw3 REQUIRED)
+# find_library(GL REQUIRED)
+# find_library(glut REQUIRED)
+# find_package(X11 REQUIRED)
 find_package(Threads REQUIRED)
+
+add_library(GLAD STATIC)
+
+target_sources( GLAD
+                PRIVATE
+                    ${GLAD_DIR}/src/glad.c
+                )
+
+target_include_directories( GLAD
+                            PUBLIC ${GLAD_DIR}/include
+                            )
 
 add_library(IMGUI STATIC)
 
@@ -63,15 +76,25 @@ target_sources( IMGUI
 target_include_directories( IMGUI
                             PUBLIC ${IMGUI_DIR}
                             PUBLIC ${IMGUI_DIR}/backends                            
-                            "${PROGRAMS-PREFIX}/glad/include"
+#                            "${PROGRAMS-PREFIX}/glad/include"
                             )
 
 ## Create main executable
 add_executable(${PROJECT_NAME})
 target_sources(${PROJECT_NAME} PUBLIC main.cpp)
 #target_link_libraries(${PROJECT_NAME} IMGUI glfw3 GL glut ${CMAKE_THREAD_LIBS_INIT} ${X11_LIBRARIES} ${CMAKE_DL_LIBS} ${glad})
-target_link_libraries(${PROJECT_NAME} IMGUI glfw GL glut ${CMAKE_THREAD_LIBS_INIT} ${X11_LIBRARIES} ${CMAKE_DL_LIBS} ${glad})
+#target_link_libraries(${PROJECT_NAME} IMGUI GLAD glfw GL glut ${CMAKE_THREAD_LIBS_INIT} ${X11_LIBRARIES} ${CMAKE_DL_LIBS})
+# target_link_libraries(${PROJECT_NAME} IMGUI GLAD glfw GL glut ${CMAKE_THREAD_LIBS_INIT} ${CMAKE_DL_LIBS})
+# try to put x11 before glfw3 !
+
+#target_link_libraries(${PROJECT_NAME} IMGUI glfw3 GL ${X11_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT} ${CMAKE_DL_LIBS})
+#target_link_libraries(${PROJECT_NAME} X11 IMGUI glfw3 GL ${CMAKE_THREAD_LIBS_INIT} ${CMAKE_DL_LIBS})
+#target_link_libraries(${PROJECT_NAME} IMGUI glfw3 GL ${X11_LIBRARIES} X11 ${CMAKE_THREAD_LIBS_INIT} ${CMAKE_DL_LIBS})
+target_link_libraries(${PROJECT_NAME} IMGUI glfw3 GL X11)
+# ${CMAKE_THREAD_LIBS_INIT} ${CMAKE_DL_LIBS})
 set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
 
-
+# install(TARGETS ${PROJECT_NAME} DESTINATION /home/kalo/work/install/${CMAKE_SYSTEM_PROCESSOR}/bin)
+# install(TARGETS ${PROJECT_NAME} DESTINATION ${CMAKE_INSTALL_PREFIX}/usr/bin)
+install(TARGETS ${PROJECT_NAME} DESTINATION bin)
