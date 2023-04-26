@@ -10,9 +10,13 @@ Building several of the libraries by myself helped partially...
 So as I'm total newbie with IMGUI I want to spare for you the additional efforts I had :).
 
 **update** - cmake evolution, new toolchains for cmake and meson for dependencies
-Only one CMakeList.txt in the example subdirectory builds all now including imgui and glad static libraries
-This is important if build a package with bitbaker
-
+only one CMakeList.txt in the example subdirectory builds all now including imgui and glad static libraries
+to build youself create and navigate to a build directory
+to compile for the native processor architecture
+- $ cmake /whatever/imgui_aarch64_glfw_openGL2_experiment/imgui/examples/example_glfw_opengl2
+- $ make
+- $ make install
+this is important if build a package with bitbaker
 
 ----
 Solution: working both under normal 64 bit Ubuntu / Mint, AND as well on Raspberry Pi 4 B with Manjaro Linux:
