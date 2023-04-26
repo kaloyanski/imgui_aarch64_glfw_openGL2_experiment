@@ -9,6 +9,11 @@ I had to read approx 15 pages / "libs How Tos" / etc to understand what exactly 
 Building several of the libraries by myself helped partially...
 So as I'm total newbie with IMGUI I want to spare for you the additional efforts I had :).
 
+**update** - cmake evolution, new toolchains for cmake and meson for dependencies
+Only one CMakeList.txt in the example subdirectory builds all now including imgui and glad static libraries
+This is important if build a package with bitbaker
+
+
 ----
 Solution: working both under normal 64 bit Ubuntu / Mint, AND as well on Raspberry Pi 4 B with Manjaro Linux:
 ----
